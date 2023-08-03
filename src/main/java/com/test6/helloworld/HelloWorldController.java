@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 @RestController
 public class HelloWorldController {
 
-    @GetMapping("/LDT")
+    @GetMapping("/ldt")
     public String LocalDateTime() {
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd/(E)　HH:mm:ss");
